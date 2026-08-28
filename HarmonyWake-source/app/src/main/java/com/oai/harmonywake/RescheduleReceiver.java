@@ -1,0 +1,1 @@
+package com.oai.harmonywake; import android.content.*; public class RescheduleReceiver extends BroadcastReceiver { public void onReceive(Context c,Intent i){AlarmScheduler.rescheduleAll(c);} }
